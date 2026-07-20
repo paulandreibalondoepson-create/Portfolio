@@ -1,0 +1,264 @@
+/*
+   CINEBEATS STYLE
+*/
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#121212;
+    font-family:Arial, sans-serif;
+    color:white;
+}
+
+nav{
+    background-color:#1f1f1f;
+    padding:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+nav h2{
+    color:rgb(235, 25, 235);
+    margin-right:30px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:17px;
+}
+nav a:hover{
+    color: rgb(235, 25, 235);
+}
+nav input{
+    padding:8px;
+    border:none;
+    border-radius:20px;
+    width:180px;
+}
+nav button{
+    padding:8px 15px;
+    border:none;
+    border-radius:20px;
+    background: rgb(235, 25, 235);
+    color:white;
+    cursor:pointer;
+}
+nav button:hover{
+    background: rgb(235, 25, 235);
+}
+
+.banner{
+    text-align:center;
+    margin:30px;
+}
+.banner img{
+    width:90%;
+    max-width:900px;
+    border-radius:15px;
+}
+.banner h1{
+    color: rgb(235, 25, 235);
+}
+.banner p{
+    font-size:18px;
+}
+
+.movies,
+.music{
+    text-align:center;
+}
+
+.card{
+    display:inline-block;
+    width:220px;
+    background: rgb(25, 25, 25);
+    margin:20px;
+    padding:15px;
+    border-radius:12px;
+}
+
+.card img{
+    width:180px;
+    height:250px;
+    border-radius:10px;
+}
+
+.card h3{
+    margin-top:10px;
+}
+
+.card a{
+    display:inline-block;
+    margin-top:10px;
+    background:#b84dff;
+    color:white;
+    padding:8px 15px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.card a:hover{
+    background:#9333ea;
+}
+
+/* Reviews */
+
+.reviews{
+    width:70%;
+    margin:auto;
+    text-align:center;
+}
+
+.reviews h3{
+    color:#b84dff;
+}
+
+/* Footer */
+
+footer{
+    background:#1f1f1f;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#b84dff;
+}
+
+hr{
+    border:1px solid #333;
+}
+
+/*
+   MOVIES PAGE
+*/
+
+.movie{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:50px auto;
+
+    text-align:center;
+
+}
+
+.movie h2{
+
+    color:#b84dff;
+
+    margin-bottom:20px;
+
+}
+
+.movie video{
+
+    width:100%;
+    max-width:900px;
+    border-radius:15px;
+    box-shadow:0 0 20px black;
+}
+.movie img{
+    width:220px;
+    margin-top:20px;
+    border-radius:12px;
+}
+.movie p{
+    width:80%;
+    margin:15px auto;
+    line-height:1.6;
+}
+hr{
+    width:80%;
+    border:1px solid #333;
+}
+
+/*
+   MUSIC PAGE
+*/
+
+.song{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+    display:flex;
+    align-items:center;
+    gap:30px;
+    background:#1f1f1f;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+.song img{
+    width:220px;
+    height:220px;
+    border-radius:15px;
+}
+.song-info{
+    flex:1;
+}
+.song-info h2{
+    color:#b84dff;
+    margin-bottom:5px;
+}
+.song-info h3{
+    color:#cccccc;
+    margin-bottom:15px;
+}
+.song-info p{
+    text-align:left;
+    line-height:1.6;
+}
+.song audio{
+    width:100%;
+    margin-top:20px;
+}
+
+/*
+   RANKINGS PAGE
+*/
+
+table{
+    width:90%;
+    margin:30px auto;
+    border-collapse:collapse;
+    background:#1f1f1f;
+    color:white;
+    box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+th{
+    background:#b84dff;
+    color:white;
+    padding:15px;
+}
+td{
+    text-align:center;
+    padding:15px;
+    border-bottom:1px solid #333;
+}
+tr:hover{
+    background:#2a2a2a;
+}
+table img{
+    border-radius:8px;
+    width:70px;
+}
+h1{
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+table{
+    border-radius:10px;
+    overflow:hidden;
+}
